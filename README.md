@@ -1,10 +1,10 @@
 # RespiDetectAI-MLFlow-DVC-AWS
 
 ### Introduction:
-In the dynamic intersection of healthcare and technology, our project stands at the forefront of leveraging machine learning operations (MLOps) to streamline the classification of adenocarcinoma. The intricate nature of cancer diagnosis demands a robust and automated approach. Through the integration of advanced deep learning models and a well-orchestrated MLOps pipeline, we aim to revolutionize the efficiency and reliability of adenocarcinoma classification.
+
 
 ## Problem Statement
-Traditional cancer classification methods suffer from subjectivity, time-intensive processes, and a crucial need for automation. By adopting MLOps principles, we address these challenges by optimizing the end-to-end pipeline, encompassing model training, deployment, and continuous monitoring. Our goal is to provide healthcare professionals with a scalable, reproducible, and efficient tool for adenocarcinoma diagnosis, ultimately enhancing patient care and treatment outcomes.
+
 
 ## Approach
 ### Data Collection :
