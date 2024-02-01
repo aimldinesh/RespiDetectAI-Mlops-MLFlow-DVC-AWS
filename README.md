@@ -8,14 +8,14 @@
 
 ## Approach
 ### Data Collection :
-#### Download from Kaggle :
-The initial step involved downloading histopathological images pertinent to adenocarcinoma from Kaggle. This dataset served as the foundation for our training and testing sets.
+#### Download data :
+The initial step involved downloading images. This dataset served as the foundation for our training and testing sets.
 
 #### Transfer to Google Drive :
 Recognizing the importance of centralized and collaborative data storage, the dataset was then transferred to Google Drive. This approach not only enhanced accessibility for team members but also streamlined the integration of the dataset into our MLOps pipeline.
 
 ### Data Ingestion :
-Extracted data, organized it by labeling or categorizing, and stored the processed dataset as a versioned data artifact. This structured approach ensures consistency for subsequent stages in our MLOps pipeline.
+Extracted data, organized it by labeling or categorizing it, and stored the processed dataset as a versioned data artifact. This structured approach ensures consistency for subsequent stages in our MLOps pipeline.
 
 ### Model Building :
 Base Model with Transfer Learning:
@@ -34,9 +34,21 @@ Accuracy measures the model's correctness in predicting adenocarcinoma classific
 ### Logging with MLflow and DVC:
 #### MLFlow:
 MLflow was employed to track and log key metrics, hyperparameters, and model artifacts during the evaluation phase. This ensures comprehensive visibility into the model's performance and facilitates experiment reproducibility.
++ MLFLOW_TRACKING_URI=
++ MLFLOW_TRACKING_USERNAME=
++ MLFLOW_TRACKING_PASSWORD=
++ python script.py
++ Run this to export as env variables:
+ + export MLFLOW_TRACKING_URI=
+ + export MLFLOW_TRACKING_USERNAME=
+ + export MLFLOW_TRACKING_PASSWORD=
 
 #### DVC (Data Version Control)
 DVC played a crucial role in version controlling the datasets, ensuring that the evaluation metrics were associated with specific dataset versions. This enhances traceability and reproducibility, fundamental aspects of a robust MLOps workflow.
++ DVC Commond
+ + dvc init
+ + dvc repro
+ + dvc dag
 
 ## User Interface:
 Develop a user-friendly interface for the adenocarcinoma cancer classification project using Flask.
@@ -44,7 +56,12 @@ Develop a user-friendly interface for the adenocarcinoma cancer classification p
 ### Dockerizing the Web App
 Package the Flask web app and its dependencies into a Docker container for consistent deployment. Making it easier to manage dependencies and deploy the application across different environments.
 
+# Deployment AWS-CICD-with-Github-Actions
+## 1. Login to AWS console.
+## 2. Create IAM user for deployment
 ## Deployment:
++ 1. EC2 access : It is virtual machine
++ 2. ECR: Elastic Container registry to save your docker image in aws
 ### Amazon Elastic Container Registry (ECR):
 Build the Docker image for the Flask web app, and push it to AWS ECR for storage and easy access.
 
@@ -56,6 +73,37 @@ Connect to the EC2 instances and install Docker to enable them to run the Docker
 
 ### Run Docker Container on EC2:
 Pull the Docker image from ECR onto the EC2 instance and run the Flask web app.
+## 3. Create ECR repo to store/save docker image
+## 4. Create EC2 machine (Ubuntu)
+## 5. Open EC2 and Install docker in EC2 Machine:
+#optinal
+
++ sudo apt-get update -y
+
++ sudo apt-get upgrade
+
+#required
+
++ curl -fsSL https://get.docker.com -o get-docker.sh
+
++ sudo sh get-docker.sh
+
++ sudo usermod -aG docker ubuntu
+
++ newgrp docker
+
+## 6. Configure EC2 as self-hosted runner:
+setting>actions>runner>new self hosted runner> choose os> then run command one by one
+## 7. Setup github secrets:
++ AWS_ACCESS_KEY_ID=
+
++ AWS_SECRET_ACCESS_KEY=
+
++ AWS_REGION = us-east-1
+
++ AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+
++ ECR_REPOSITORY_NAME = simple-app
 
 ## Technologies Used
 + Python
