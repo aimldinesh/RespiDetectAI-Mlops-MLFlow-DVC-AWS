@@ -1,9 +1,8 @@
 # RespiDetectAI-MLFlow-DVC-AWS
 
-## Introduction:
-
-
 ## Problem Statement
+Chest cancer remains a significant global health challenge, with early detection and type classification being crucial for effective treatment. One detection method involves analyzing CT scan images, which can then be interpreted by doctors to determine the presence and type of lung cancer. However, this method has limitations; human interpretation may miss subtle patterns indicative of early-stage chest cancer. In contrast, deep learning models offer a promising avenue in this matter, excelling in recognizing intricate patterns and identifying subtle abnormalities not easily observable through other methods. Another advantage is that they automatically learn relevant features from data, eliminating the need for manual feature engineering, which is particularly useful in medical imaging where defining explicit features can be complex. We use a dataset containing CT scan images of the chest categorized as normal and adenocarcinoma. Traditional cancer classification methods suffer from subjectivity, time-intensive processes, and a crucial need for automation. By adopting MLOps principles, we address these challenges by optimizing the end-to-end pipeline, encompassing model training, deployment, and continuous monitoring. Our goal is to provide healthcare professionals with a scalable, reproducible, and efficient tool for adenocarcinoma diagnosis, ultimately enhancing patient care and treatment outcomes.
+
 
 
 ## Approach
@@ -45,7 +44,7 @@ MLflow was employed to track and log key metrics, hyperparameters, and model art
 
 #### DVC (Data Version Control)
 DVC played a crucial role in version controlling the datasets, ensuring that the evaluation metrics were associated with specific dataset versions. This enhances traceability and reproducibility, fundamental aspects of a robust MLOps workflow.
-+ DVC Commond
+#### DVC Commond
  + dvc init
  + dvc repro
  + dvc dag
