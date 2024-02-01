@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Mlops/Chest-cancer-classification/Chest-Cancer-classification-Mlops-MLFlow-DVC-AWS/mlruns/0/187c0818fd534cdd985e8452c3a420c8/artifacts
+end_time: 1706765094205
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 187c0818fd534cdd985e8452c3a420c8
+run_name: wistful-yak-468
+run_uuid: 187c0818fd534cdd985e8452c3a420c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706764876847
+status: 3
+tags: []
+user_id: CG-DTE
