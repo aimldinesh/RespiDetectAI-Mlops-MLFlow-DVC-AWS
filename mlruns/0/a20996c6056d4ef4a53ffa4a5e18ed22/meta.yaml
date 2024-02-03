@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Mlops/Chest-cancer-classification/Chest-Cancer-classification-Mlops-MLFlow-DVC-AWS/mlruns/0/a20996c6056d4ef4a53ffa4a5e18ed22/artifacts
+end_time: 1706945636358
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a20996c6056d4ef4a53ffa4a5e18ed22
+run_name: invincible-bird-404
+run_uuid: a20996c6056d4ef4a53ffa4a5e18ed22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706945448067
+status: 3
+tags: []
+user_id: CG-DTE
