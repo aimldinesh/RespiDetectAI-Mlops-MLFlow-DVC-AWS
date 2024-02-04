@@ -26,10 +26,10 @@ The base model was then fine-tuned and trained on our carefully prepared dataset
 
 ### Model Evaluation:
 #### Loss:
-The loss metric gauges the disparity between predicted and actual values during the model training process. Lower values indicate better alignment between predicted and ground truth labels.
+The loss metric gauges the disparity between predicted and actual values during the model training process. Lower values indicate better alignment between predicted and ground truth labels. We get  "loss": 1.1983329057693481
 
 #### Accuracy:
-Accuracy measures the model's correctness in predicting adenocarcinoma classification. It is the ratio of correctly predicted samples to the total number of samples. we get accuracy: 0.843137264251709.
+Accuracy measures the model's correctness in predicting adenocarcinoma classification. It is the ratio of correctly predicted samples to the total number of samples. we get "accuracy": 0.843137264251709.
 
 ### Logging with MLflow and DVC:
 #### MLFlow:
