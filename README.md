@@ -79,13 +79,13 @@ Pull the Docker image from ECR onto the EC2 instance and run the Flask web app.
 ## 3. Create ECR repo to store/save docker image
 ## 4. Create EC2 machine (Ubuntu)
 ## 5. Open EC2 and Install docker in EC2 Machine:
-# It is optional
+### It is optional
 
 + sudo apt-get update -y
 
 + sudo apt-get upgrade
 
-# It is required
+### It is required
 
 + curl -fsSL https://get.docker.com -o get-docker.sh
 
