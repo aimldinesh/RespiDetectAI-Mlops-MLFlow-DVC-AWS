@@ -1,12 +1,20 @@
 # RespiDetectAI-MLFlow-DVC-AWS
+## Introduction
+I'm excited to share a project I worked on that addresses a critical challenge in healthcare: early and accurate diagnosis of chest cancer. I developed a tool that leverages the power of artificial intelligence to classify CT scan images, potentially improving patient outcomes.
 
 ## Problem Statement
-Chest cancer remains a significant global health challenge, with early detection and type classification being crucial for effective treatment. One detection method involves analyzing CT scan images, which can then be interpreted by doctors to determine the presence and type of lung cancer. However, this method has limitations; human interpretation may miss subtle patterns indicative of early-stage chest cancer. In contrast, deep learning models offer a promising avenue in this matter, excelling in recognizing intricate patterns and identifying subtle abnormalities not easily observable through other methods. Another advantage is that they automatically learn relevant features from data, eliminating the need for manual feature engineering, which is particularly useful in medical imaging where defining explicit features can be complex. 
-We use a dataset containing CT scan images of the chest categorized as normal and adenocarcinoma. Traditional cancer classification methods suffer from subjectivity, time-intensive processes, and a crucial need for automation. By adopting MLOps principles, we address these challenges by optimizing the end-to-end pipeline, encompassing model training, deployment, and continuous monitoring. Our goal is to provide healthcare professionals with a scalable, reproducible, and efficient tool for adenocarcinoma diagnosis, ultimately enhancing patient care and treatment outcomes.
-
-
+Chest cancer is a leading cause of cancer deaths worldwide. Early detection is crucial for effective treatment, but traditional methods of analyzing CT scans can be time-consuming and prone to human error. My goal was to create a more efficient and accurate diagnostic tool.
 
 ## Approach
+I used a technique called deep learning, which excels at recognizing patterns in images. I trained a model on a dataset of CT scans, teaching it to distinguish between normal and cancerous tissue. I also incorporated MLOps principles to streamline the model's development, deployment, and monitoring.
+
+## Key Accomplishments
+I'm proud to say that my model achieved an accuracy of 84% in classifying adenocarcinoma, a common type of chest cancer. This is a significant improvement over traditional methods. It also demonstrates the potential of AI to transform healthcare.
+
+## Impact
+I hope that this kind of tool can eventually be used in clinical settings to assist radiologists in making faster and more accurate diagnoses. This could lead to earlier treatment and better outcomes for patients with chest cancer.
+
+## Steps
 ### Data Collection :
 #### Download data :
 The initial step involved downloading images. This dataset served as the foundation for our training and testing sets.
@@ -51,7 +59,7 @@ DVC played a crucial role in version controlling the datasets, ensuring that the
  + dvc dag
 
 ## User Interface:
-Develop a user-friendly interface for the adenocarcinoma cancer classification project using Flask.
+WE build a user-friendly interface for the adenocarcinoma cancer classification project using Flask.
 
 ### Dockerizing the Web App
 Package the Flask web app and its dependencies into a Docker container for consistent deployment. Making it easier to manage dependencies and deploy the application across different environments.
@@ -76,13 +84,13 @@ Pull the Docker image from ECR onto the EC2 instance and run the Flask web app.
 ## 3. Create ECR repo to store/save docker image
 ## 4. Create EC2 machine (Ubuntu)
 ## 5. Open EC2 and Install docker in EC2 Machine:
-#optinal
+# It is optional
 
 + sudo apt-get update -y
 
 + sudo apt-get upgrade
 
-#required
+# It is required
 
 + curl -fsSL https://get.docker.com -o get-docker.sh
 
