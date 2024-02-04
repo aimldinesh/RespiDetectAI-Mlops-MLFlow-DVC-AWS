@@ -8,6 +8,7 @@ I used a technique called deep learning, which excels at recognizing patterns in
 ## Key Accomplishments
 I'm proud to say that my model achieved an accuracy of 84% in classifying adenocarcinoma, a common type of chest cancer. This is a significant improvement over traditional methods. It also demonstrates the potential of AI to transform healthcare.
 ![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/data_pipeline.PNG)
+![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/capture1.PNG)
 
 ## Steps
 ### Data Collection :
