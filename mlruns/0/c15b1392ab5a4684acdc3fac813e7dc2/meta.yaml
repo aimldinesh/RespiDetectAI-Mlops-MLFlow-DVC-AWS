@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Mlops/Chest-cancer-classification/Chest-Cancer-classification-Mlops-MLFlow-DVC-AWS/mlruns/0/c15b1392ab5a4684acdc3fac813e7dc2/artifacts
+end_time: 1707035676717
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c15b1392ab5a4684acdc3fac813e7dc2
+run_name: bustling-penguin-516
+run_uuid: c15b1392ab5a4684acdc3fac813e7dc2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707035482389
+status: 3
+tags: []
+user_id: CG-DTE

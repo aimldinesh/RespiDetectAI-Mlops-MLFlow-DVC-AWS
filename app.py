@@ -17,10 +17,13 @@ class ClientApp:
         self.filename = "inputImage.jpg"
         self.classifier = PredictionPipeline(self.filename)
 
+
 @app.route("/", methods=['GET'])
 @cross_origin()
 def home():
     return render_template('index.html')
+
+
 
 @app.route("/train", methods=['GET','POST'])
 @cross_origin()
@@ -38,7 +41,6 @@ def predictRoute():
     image = request.json['image']
     decodeImage(image, clApp.filename)
     result = clApp.classifier.predict()
-    print(result)
     return jsonify(result)
 
 
