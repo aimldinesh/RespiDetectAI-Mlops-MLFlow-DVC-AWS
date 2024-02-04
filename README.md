@@ -10,6 +10,8 @@ I'm proud to say that my model achieved an accuracy of 84% in classifying adenoc
 ![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/data_pipeline.PNG)
 ![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/capture1.PNG)
 ![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/Capture2.PNG)
+![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/experiment.PNG)
+![Alt text]
 
 ## Steps
 ### Data Collection :
