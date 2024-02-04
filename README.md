@@ -7,8 +7,7 @@ Chest cancer is a leading cause of cancer deaths worldwide. Early detection is c
 I used a technique called deep learning, which excels at recognizing patterns in images. I trained a model on a dataset of CT scans, teaching it to distinguish between normal and cancerous tissue. I also incorporated MLOps principles to streamline the model's development, deployment, and monitoring.
 ## Key Accomplishments
 I'm proud to say that my model achieved an accuracy of 84% in classifying adenocarcinoma, a common type of chest cancer. This is a significant improvement over traditional methods. It also demonstrates the potential of AI to transform healthcare.
-## Impact
-I hope that this kind of tool can eventually be used in clinical settings to assist radiologists in making faster and more accurate diagnoses. This could lead to earlier treatment and better outcomes for patients with chest cancer.
+
 ## Steps
 ### Data Collection :
 #### Download data :
