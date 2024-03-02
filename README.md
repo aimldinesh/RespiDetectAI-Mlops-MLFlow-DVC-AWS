@@ -1,6 +1,6 @@
 # RespiDetectAI-MLFlow-DVC-AWS
 ## Introduction
-I'm excited to share a project I worked on that addresses a critical challenge in healthcare: early and accurate diagnosis of chest cancer. I developed a tool that leverages the power of artificial intelligence to classify CT scan images, potentially improving patient outcomes.
+In this project, I worked on addressing a critical challenge in healthcare: early and accurate diagnosis of chest cancer. I developed a tool that leverages the power of artificial intelligence to classify CT scan images, potentially improving patient outcomes.
 ## Problem Statement
 Chest cancer is a leading cause of cancer deaths worldwide. Early detection is crucial for effective treatment, but traditional methods of analyzing CT scans can be time-consuming and prone to human error. My goal was to create a more efficient and accurate diagnostic tool.
 ## Approach
