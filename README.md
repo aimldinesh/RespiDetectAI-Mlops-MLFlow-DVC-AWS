@@ -1,12 +1,13 @@
 # RespiDetectAI-MLFlow-DVC-AWS
-## Introduction
-In this project, I worked on addressing a critical challenge in healthcare: early and accurate diagnosis of chest cancer. I developed a tool that leverages the power of artificial intelligence to classify CT scan images, potentially improving patient outcomes.
-## Problem Statement
-Chest cancer is a leading cause of cancer deaths worldwide. Early detection is crucial for effective treatment, but traditional methods of analyzing CT scans can be time-consuming and prone to human error. My goal was to create a more efficient and accurate diagnostic tool.
-## Approach
-I used a technique called deep learning, which excels at recognizing patterns in images. I trained a model on a dataset of CT scans, teaching it to distinguish between normal and cancerous tissue. I also incorporated MLOps principles to streamline the model's development, deployment, and monitoring.
-## Key Accomplishments
-I'm proud to say that my model achieved an accuracy of 84% in classifying adenocarcinoma, a common type of chest cancer. This is a significant improvement over traditional methods. It also demonstrates the potential of AI to transform healthcare.
+## Introduction:
+In this project, I worked on that addressed a critical challenge in healthcare: early and accurate diagnosis of chest cancer. I developed and deployed an AI System for early-stage chest cancer detection using deep learning and CT scan image data.
+## Problem Statement:
+Chest cancer remains a leading cause of cancer deaths globally. While early detection is crucial for effective treatment, traditional methods for analyzing CT scans are often time-consuming and susceptible to human error. This project aimed to develop a tool that can efficiently and accurately classify cancerous tissue in CT scans.
+## Approach:
+Leveraging deep learning's ability to recognize patterns in images, I trained a model to differentiate between normal and cancerous tissue in CT scans. To optimize performance and training efficiency, I employed transfer learning and fine-tuning of the VGG16 architecture. Furthermore, a user-friendly Flask web interface was built to facilitate accessibility and enable cancer classification. Additionally, MLOps principles were integrated to streamline the model's development, deployment, and monitoring.
+## Key Accomplishments:
+I achieved a model accuracy of 84% in classifying adenocarcinoma, a common type of chest cancer. This is a significant improvement over traditional method. 
+
 ![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/data_pipeline.PNG)
 ![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/capture1.PNG)
 ![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/Capture2.PNG)
