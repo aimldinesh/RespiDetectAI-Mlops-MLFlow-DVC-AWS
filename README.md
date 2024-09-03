@@ -6,7 +6,7 @@ Chest cancer remains a leading cause of cancer deaths globally. While early dete
 ## Approach:
 Leveraging deep learning's ability to recognize patterns in images, I trained a model to differentiate between normal and cancerous tissue in CT scans. To optimize performance and training efficiency, I employed transfer learning and fine-tuning of the VGG16 architecture. Furthermore, a user-friendly Flask web interface was built to facilitate accessibility and enable cancer classification. Additionally, MLOps principles were integrated to streamline the model's development, deployment, and monitoring.
 ## Key Accomplishments:
-I achieved a model accuracy of 84% in classifying adenocarcinoma, a common type of chest cancer. This is a significant improvement over traditional method. 
+This model achieved a accuracy of 84% in classifying adenocarcinoma, a common type of chest cancer. This is a significant improvement over traditional method. 
 
 ![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/data_pipeline.PNG)
 ![Alt text](https://github.com/dsml917/RespiDetectAI-Mlops-MLFlow-DVC-AWS/blob/main/prediction_images/capture1.PNG)
